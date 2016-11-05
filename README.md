@@ -1,4 +1,4 @@
-# touchbar_nyancat
+# Touchbar Nyancat
 Stupid nyancat animation on your +$2k MacBook Pro's Touchbar. Enjoy
 
 

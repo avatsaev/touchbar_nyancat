@@ -6,27 +6,35 @@
 	<dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		1O9Zns+1AAtqwBweUOMfe77ZrTI=
+		vKY9MpKqXU++hIlYHqAFO6Nyei0=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<data>
-		t2TqMcPDPsdS6XJp5paG/U7DN0U=
+		0FkZre/ixH8Shpc+ixrSrx3FGLo=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<data>
-		W1ab2NLxXoAlbYyPag/yb3nZoUI=
+		JtpJNum7cYWTeQPBn6SxZ1nomtw=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		Pg1OJBOUTNuz11vUYR95wXk5ICc=
+		IPTjrh5b0vOVtyNFC9UG4srwSpY=
 		</data>
 		<key>Resources/NyanCatCanvas.nib</key>
 		<data>
 		jabyT44X4Rq6RquGSO8nX7+Lv9s=
 		</data>
+		<key>Resources/icon.png</key>
+		<data>
+		WudcYlInuEcIvHfC3N+EJVeI8sA=
+		</data>
+		<key>Resources/libswiftRemoteMirror.dylib</key>
+		<data>
+		GACfJVnV/01/bFtw7YlPG/bIhx0=
+		</data>
 		<key>Resources/nyan_long@2x.gif</key>
 		<data>
-		7UuGeXq/+82b5XSR5k6s62rB9FY=
+		udvjyOdEtKIC9mrX4PCuOCnj6Bc=
 		</data>
 		<key>Resources/nyan_music.mp3</key>
 		<data>
@@ -174,28 +182,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KDQKKAyPSTacUeHxOYNxeMUyPi4cP9Efa55T6XB5RnI=
+			fm3wiRYkEv1DgcEYEDy/UeuwqK5Mq8aQM6Am1DK4VYs=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+RbW8xaYrs6xpx4fYHfy7q0sUKRiscMNzVsn5RqA23M=
+			8k+TVoqSvWjbzZJbUMU6dWluLD91wbUMLwX5EgMgGqI=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fmHkEzZzSEN6kfTZQCyNueHOuVyElBtQJySs0htxlXs=
+			8qusCjyePH5Bp6Vo2/ZMYFBEtCxu2nJ2vTKnc0NSnLM=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cRa61++W7SFIJ0CW/HObANcwrUpB8NFVSizoS0Ajj9s=
+			67WN8irPpFq9BOORmlkn0VY3CuVinfEutmeCCbipBjg=
 			</data>
 		</dict>
 		<key>Resources/NyanCatCanvas.nib</key>
@@ -205,11 +213,25 @@
 			MpUEEp1x6S3Nxly9cfEZQWSmgJBG80/ucH5kEW/+uCc=
 			</data>
 		</dict>
+		<key>Resources/icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yhC1nwphowK8EkmGV6PI4iguW7rgQQlVoUYgz9cQTSw=
+			</data>
+		</dict>
+		<key>Resources/libswiftRemoteMirror.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pzHyh4D4Aau9yDgSMCCwr0Ye+bl9UvZGUUwORgLOS4I=
+			</data>
+		</dict>
 		<key>Resources/nyan_long@2x.gif</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0i7BdqaLrWf1oyxC7Bi/U1qcRv15zC3nLCAOvjydDxY=
+			Ydp3kcV7BbEpYoqQSpMv7Of4wF6RYlhsfUuEQ+Qd39Q=
 			</data>
 		</dict>
 		<key>Resources/nyan_music.mp3</key>

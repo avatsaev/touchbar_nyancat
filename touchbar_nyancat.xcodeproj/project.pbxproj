@@ -14,6 +14,7 @@
 		A3826CDA1DCE79B900B7C41E /* NyanCatCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */; };
 		A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */; };
 		A3A050D91DCE8F3E009D9775 /* nyan_long@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3A050D81DCE8F3E009D9775 /* nyan_long@2x.gif */; };
+		A3A050DC1DCE96BD009D9775 /* nyan_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A3A050DB1DCE96BD009D9775 /* nyan_music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NyanCatCanvas.swift; sourceTree = "<group>"; };
 		A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NyanCatCanvas.xib; sourceTree = "<group>"; };
 		A3A050D81DCE8F3E009D9775 /* nyan_long@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "nyan_long@2x.gif"; sourceTree = "<group>"; };
+		A3A050DB1DCE96BD009D9775 /* nyan_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nyan_music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		A362A1041DCE6D6B00737197 /* touchbar_nyancat */ = {
 			isa = PBXGroup;
 			children = (
+				A3A050DA1DCE96B2009D9775 /* sound */,
 				A3826CD61DCE73EA00B7C41E /* img */,
 				A362A1051DCE6D6B00737197 /* AppDelegate.swift */,
 				A362A1071DCE6D6B00737197 /* NyanCatViewController.swift */,
@@ -76,6 +79,14 @@
 				A3A050D81DCE8F3E009D9775 /* nyan_long@2x.gif */,
 			);
 			name = img;
+			sourceTree = "<group>";
+		};
+		A3A050DA1DCE96B2009D9775 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				A3A050DB1DCE96BD009D9775 /* nyan_music.mp3 */,
+			);
+			name = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */,
 				A3A050D91DCE8F3E009D9775 /* nyan_long@2x.gif in Resources */,
+				A3A050DC1DCE96BD009D9775 /* nyan_music.mp3 in Resources */,
 				A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */,
 				A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */,
 			);

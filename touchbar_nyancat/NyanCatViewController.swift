@@ -7,13 +7,29 @@
 //
 
 import Cocoa
+import AVFoundation
 
 
 
 class NyanCatViewController: NSViewController , NSTouchBarDelegate{
-
+  
+  var audio_player: AVAudioPlayer?
+  
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+      let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "nyan_music", ofType: "mp3")!)
+    
+      do {
+        
+        try audio_player = AVAudioPlayer(contentsOf: nyan_music)
+        audio_player?.numberOfLoops = -1
+        audio_player?.prepareToPlay()
+      
+        audio_player?.play()
+        
+      }catch{}
+    
     
   }
 

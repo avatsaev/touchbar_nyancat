@@ -6,15 +6,15 @@
 	<dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		rF67Ds0Y4zXzfGemH7ocYwDy9ew=
+		1O9Zns+1AAtqwBweUOMfe77ZrTI=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<data>
-		PWLaXc9R+Pg6ZCDIhu4tUrkv0AA=
+		t2TqMcPDPsdS6XJp5paG/U7DN0U=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<data>
-		Rd9I+XdnESaBJM3vgEfeN9Q1uIY=
+		W1ab2NLxXoAlbYyPag/yb3nZoUI=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
@@ -28,9 +28,22 @@
 		<data>
 		7UuGeXq/+82b5XSR5k6s62rB9FY=
 		</data>
+		<key>Resources/nyan_music.mp3</key>
+		<data>
+		V8E9PM0EfKyaxzCAEBVfx9oaNpQ=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/libswiftAVFoundation.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			eiDlLgpZpQaf3Arl+3uswwufS6w=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftAVFoundation" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Aslan  Vatsaev (4MXV75LAY2)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
 		<key>Frameworks/libswiftAppKit.dylib</key>
 		<dict>
 			<key>cdhash</key>
@@ -48,6 +61,15 @@
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Aslan  Vatsaev (4MXV75LAY2)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftCoreAudio.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			bd1ZHNpLB9vw83ITGVfnMCGDP/Y=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftCoreAudio" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Aslan  Vatsaev (4MXV75LAY2)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftCoreData.dylib</key>
 		<dict>
@@ -75,6 +97,15 @@
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Aslan  Vatsaev (4MXV75LAY2)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftCoreMedia.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			IY5Laf8JVHr5jp5niVBWhtc7+E0=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftCoreMedia" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Aslan  Vatsaev (4MXV75LAY2)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
@@ -143,21 +174,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yKNBB11xQlopsMA7CJE04JjW5Y6wIIlEOh59WqDw5+o=
+			KDQKKAyPSTacUeHxOYNxeMUyPi4cP9Efa55T6XB5RnI=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FicFKHc7DYLL1yUm9dqqwv8BtfMB/wTiPpyQgqW08wo=
+			+RbW8xaYrs6xpx4fYHfy7q0sUKRiscMNzVsn5RqA23M=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5YSLYhvNDPCHJlH7O1L66sQwg/quHSwgSLcR5QyHGHQ=
+			fmHkEzZzSEN6kfTZQCyNueHOuVyElBtQJySs0htxlXs=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
@@ -179,6 +210,13 @@
 			<key>hash2</key>
 			<data>
 			0i7BdqaLrWf1oyxC7Bi/U1qcRv15zC3nLCAOvjydDxY=
+			</data>
+		</dict>
+		<key>Resources/nyan_music.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ntFfmlQEsem/5T4EorK1NsmQNNtZIAc0cfUzzz+RwC0=
 			</data>
 		</dict>
 	</dict>

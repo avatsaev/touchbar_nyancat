@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A362A1061DCE6D6B00737197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362A1051DCE6D6B00737197 /* AppDelegate.swift */; };
+		A362A1081DCE6D6B00737197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362A1071DCE6D6B00737197 /* ViewController.swift */; };
+		A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A362A1091DCE6D6B00737197 /* Assets.xcassets */; };
+		A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A362A10B1DCE6D6B00737197 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchbar_nyancat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A362A1051DCE6D6B00737197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A362A1071DCE6D6B00737197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A362A1091DCE6D6B00737197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A362A10C1DCE6D6B00737197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A362A10E1DCE6D6B00737197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A362A0FF1DCE6D6B00737197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A362A0F91DCE6D6B00737197 = {
+			isa = PBXGroup;
+			children = (
+				A362A1041DCE6D6B00737197 /* touchbar_nyancat */,
+				A362A1031DCE6D6B00737197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A362A1031DCE6D6B00737197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A362A1041DCE6D6B00737197 /* touchbar_nyancat */ = {
+			isa = PBXGroup;
+			children = (
+				A362A1051DCE6D6B00737197 /* AppDelegate.swift */,
+				A362A1071DCE6D6B00737197 /* ViewController.swift */,
+				A362A1091DCE6D6B00737197 /* Assets.xcassets */,
+				A362A10B1DCE6D6B00737197 /* Main.storyboard */,
+				A362A10E1DCE6D6B00737197 /* Info.plist */,
+			);
+			path = touchbar_nyancat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A362A1011DCE6D6B00737197 /* touchbar_nyancat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "touchbar_nyancat" */;
+			buildPhases = (
+				A362A0FE1DCE6D6B00737197 /* Sources */,
+				A362A0FF1DCE6D6B00737197 /* Frameworks */,
+				A362A1001DCE6D6B00737197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchbar_nyancat;
+			productName = touchbar_nyancat;
+			productReference = A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A362A0FA1DCE6D6B00737197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = AVatsaev;
+				TargetAttributes = {
+					A362A1011DCE6D6B00737197 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9K2GY8824J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A362A0FD1DCE6D6B00737197 /* Build configuration list for PBXProject "touchbar_nyancat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A362A0F91DCE6D6B00737197;
+			productRefGroup = A362A1031DCE6D6B00737197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A362A1011DCE6D6B00737197 /* touchbar_nyancat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A362A1001DCE6D6B00737197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */,
+				A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A362A0FE1DCE6D6B00737197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A362A1081DCE6D6B00737197 /* ViewController.swift in Sources */,
+				A362A1061DCE6D6B00737197 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A362A10B1DCE6D6B00737197 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A362A10C1DCE6D6B00737197 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A362A10F1DCE6D6B00737197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A362A1101DCE6D6B00737197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A362A1121DCE6D6B00737197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9K2GY8824J;
+				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vatsaev.touchbar-nyancat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A362A1131DCE6D6B00737197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9K2GY8824J;
+				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vatsaev.touchbar-nyancat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A362A0FD1DCE6D6B00737197 /* Build configuration list for PBXProject "touchbar_nyancat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A362A10F1DCE6D6B00737197 /* Debug */,
+				A362A1101DCE6D6B00737197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "touchbar_nyancat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A362A1121DCE6D6B00737197 /* Debug */,
+				A362A1131DCE6D6B00737197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A362A0FA1DCE6D6B00737197 /* Project object */;
+}

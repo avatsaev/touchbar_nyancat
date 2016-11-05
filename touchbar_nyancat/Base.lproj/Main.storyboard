@@ -12,7 +12,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="TouchBar NyanCat" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -61,12 +61,43 @@
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <viewController id="XfG-lQ-9wD" customClass="NyanCatViewController" customModule="touchbar_nyancat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="149"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="250"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="iUM-SV-UtP">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="250"/>
+                            </customView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gMT-xv-P4n">
+                                <rect key="frame" x="180" y="63" width="121" height="124"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="124" id="RoQ-MZ-NU4"/>
+                                    <constraint firstAttribute="width" constant="121" id="mTk-cp-YzJ"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="icon" id="8Gj-P1-q8c"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gMT-xv-P4n" secondAttribute="trailing" constant="179" id="3lu-FZ-ahL"/>
+                            <constraint firstAttribute="bottom" secondItem="iUM-SV-UtP" secondAttribute="bottom" id="58N-Hr-GF1"/>
+                            <constraint firstItem="iUM-SV-UtP" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="97e-n6-v5E"/>
+                            <constraint firstItem="iUM-SV-UtP" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="GFI-Ne-BiR"/>
+                            <constraint firstItem="iUM-SV-UtP" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="JVR-aH-hpw"/>
+                            <constraint firstAttribute="trailing" secondItem="iUM-SV-UtP" secondAttribute="trailing" id="QVv-rY-vfo"/>
+                            <constraint firstAttribute="bottom" secondItem="gMT-xv-P4n" secondAttribute="bottom" constant="63" id="UK3-mL-juy"/>
+                            <constraint firstItem="gMT-xv-P4n" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="180" id="XcW-pT-FNZ"/>
+                            <constraint firstItem="gMT-xv-P4n" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="63" id="ZhM-b6-ufp"/>
+                            <constraint firstItem="iUM-SV-UtP" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="cgm-iG-ydv"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bkg" destination="iUM-SV-UtP" id="Y8L-Wa-nPi"/>
+                    </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="75" y="715.5"/>
+            <point key="canvasLocation" x="75" y="766"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon" width="192" height="189.75"/>
+    </resources>
 </document>

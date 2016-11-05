@@ -15,13 +15,19 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
   
   var audio_player: AVAudioPlayer?
   
+  
+  @IBOutlet weak var bkg: NSView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    
+      self.view.wantsLayer = true
     
       let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "nyan_music", ofType: "mp3")!)
     
       do {
-        
+
         try audio_player = AVAudioPlayer(contentsOf: nyan_music)
         audio_player?.numberOfLoops = -1
         audio_player?.prepareToPlay()
@@ -31,6 +37,10 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
       }catch{}
     
     
+  }
+  
+  override func viewWillAppear() {
+    bkg.layer?.backgroundColor = NSColor(red:0.08, green:0.31, blue:0.55, alpha:1.00).cgColor
   }
 
   override var representedObject: Any? {

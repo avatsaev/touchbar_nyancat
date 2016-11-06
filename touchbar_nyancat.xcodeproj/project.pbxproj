@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A34053A21DCF56600081ABF1 /* ic_volume_off_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */; };
+		A34053A41DCF56640081ABF1 /* ic_volume_up_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */; };
 		A362A1061DCE6D6B00737197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362A1051DCE6D6B00737197 /* AppDelegate.swift */; };
 		A362A1081DCE6D6B00737197 /* NyanCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362A1071DCE6D6B00737197 /* NyanCatViewController.swift */; };
 		A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A362A1091DCE6D6B00737197 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_volume_off_3x.png; sourceTree = "<group>"; };
+		A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_volume_up_3x.png; sourceTree = "<group>"; };
 		A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchbar_nyancat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A362A1051DCE6D6B00737197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A362A1071DCE6D6B00737197 /* NyanCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyanCatViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 		A3826CD61DCE73EA00B7C41E /* img */ = {
 			isa = PBXGroup;
 			children = (
+				A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */,
+				A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */,
 				A3A050E31DCEAB08009D9775 /* nyan_long@2x.gif */,
 				A3A050DF1DCE9E03009D9775 /* icon.png */,
 			);
@@ -157,7 +163,9 @@
 				A3A050DC1DCE96BD009D9775 /* nyan_music.mp3 in Resources */,
 				A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */,
 				A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */,
+				A34053A21DCF56600081ABF1 /* ic_volume_off_3x.png in Resources */,
 				A3A050E41DCEAB08009D9775 /* nyan_long@2x.gif in Resources */,
+				A34053A41DCF56640081ABF1 /* ic_volume_up_3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

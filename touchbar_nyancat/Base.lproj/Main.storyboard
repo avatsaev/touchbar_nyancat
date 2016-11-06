@@ -68,6 +68,26 @@
                         <subviews>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="iUM-SV-UtP">
                                 <rect key="frame" x="0.0" y="0.0" width="480" height="250"/>
+                                <subviews>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uCH-1A-AJh">
+                                        <rect key="frame" x="413" y="202" width="53" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="41" id="QZ9-15-4hC"/>
+                                            <constraint firstAttribute="height" constant="21" id="Tel-0Z-dcP"/>
+                                        </constraints>
+                                        <buttonCell key="cell" type="push" bezelStyle="rounded" imagePosition="only" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="Uwj-zc-KXn">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                            <connections>
+                                                <action selector="toggle_sound:" target="XfG-lQ-9wD" id="DxC-Yp-VN2"/>
+                                            </connections>
+                                        </buttonCell>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uCH-1A-AJh" firstAttribute="top" secondItem="iUM-SV-UtP" secondAttribute="top" constant="20" id="Jew-ed-Aov"/>
+                                    <constraint firstAttribute="trailing" secondItem="uCH-1A-AJh" secondAttribute="trailing" constant="20" id="ZrN-ZA-iBJ"/>
+                                </constraints>
                             </customView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gMT-xv-P4n">
                                 <rect key="frame" x="180" y="63" width="121" height="124"/>
@@ -93,6 +113,7 @@
                     </view>
                     <connections>
                         <outlet property="bkg" destination="iUM-SV-UtP" id="Y8L-Wa-nPi"/>
+                        <outlet property="sound_btn" destination="Uwj-zc-KXn" id="jky-Ou-f9G"/>
                     </connections>
                 </viewController>
             </objects>

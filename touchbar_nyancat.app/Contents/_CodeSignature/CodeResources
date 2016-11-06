@@ -6,23 +6,31 @@
 	<dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		D+r6E3dOSFOd8j+c/1nDO1nKhsA=
+		a/nJsCwDzqSeX22Dex+G4TC6pHE=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<data>
-		F2h5vrRlEKCuRc8h5vHj1sgJ3Hs=
+		rex2AleGzy7SsoWis2mahqU4H/E=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<data>
-		iMjr/hWuAQg4RQDisHPiM6AdNDE=
+		oZpx0/yr06n6WWXBgEoxp4XjHlA=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		20wn7A8HqRgiOP5bVsDievK78Og=
+		w6eENI7Z44k/SHinRPt1AmuMm/g=
 		</data>
 		<key>Resources/NyanCatCanvas.nib</key>
 		<data>
 		g8HRzKNlbZtprh3YsNHf3AQ2w78=
+		</data>
+		<key>Resources/ic_volume_off_3x.png</key>
+		<data>
+		vpU5qU7trtaGuphPNYPBsykIt+k=
+		</data>
+		<key>Resources/ic_volume_up_3x.png</key>
+		<data>
+		QHz7fVUKbXe25cu/R2l43fHEpLY=
 		</data>
 		<key>Resources/icon.png</key>
 		<data>
@@ -182,28 +190,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GMjzaUtvteV6B35HSHHvSpXBkoaKARV3ycz7dAy37So=
+			RCVqG2FAQ28C4/piccP6X4CQwev1GglZefWtakHYkAE=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7dKMR0612E4op/Ij0+xWNSjnVIW0KK0SlqBewQdFLvE=
+			YhXPdmS0wzNPtC30uvkhktJQUisXOXUX/0y+tXFCBx0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/j1MqU6h7DW+eWQKyHLW8EpAzzNA06VGR1mgAIaQdpw=
+			9FGVpVkbZQcjqMO9MZusNimlIDPOe2VC+8vLt2cci9c=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wNq8hgQGHzQvFo7V59g1ZOyqNH+lwApOVmEypf+Q1r0=
+			bDXCN6ATWEk0jPj7TzNeCu9ekx1R0wKNJ8F0ltLqIRg=
 			</data>
 		</dict>
 		<key>Resources/NyanCatCanvas.nib</key>
@@ -211,6 +219,20 @@
 			<key>hash2</key>
 			<data>
 			K7873FAPSvn0Go2R8dGMWPkH2nQN4dS8wrQP+9DmvlE=
+			</data>
+		</dict>
+		<key>Resources/ic_volume_off_3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fcY3u/RpOiryv3tBi1q0tM4fqCwVV3t611HS92Ewsco=
+			</data>
+		</dict>
+		<key>Resources/ic_volume_up_3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8hj3LjXj0CAZ0i49/fhmwtSsSrfnfi7JPl2ZnCw1ZzE=
 			</data>
 		</dict>
 		<key>Resources/icon.png</key>

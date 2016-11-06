@@ -6,23 +6,23 @@
 	<dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		vKY9MpKqXU++hIlYHqAFO6Nyei0=
+		9CVV83yfn2vAvT6rqxaGqyfraSU=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<data>
-		0FkZre/ixH8Shpc+ixrSrx3FGLo=
+		NmjO9PelYBzFpERY7C1xRlWiQmI=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<data>
-		JtpJNum7cYWTeQPBn6SxZ1nomtw=
+		2MIlabGcINYmgT5YyRkb1ZOtUrU=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		IPTjrh5b0vOVtyNFC9UG4srwSpY=
+		cbbMmJ5KgaCsA10puWo2SpnMYkc=
 		</data>
 		<key>Resources/NyanCatCanvas.nib</key>
 		<data>
-		jabyT44X4Rq6RquGSO8nX7+Lv9s=
+		g8HRzKNlbZtprh3YsNHf3AQ2w78=
 		</data>
 		<key>Resources/icon.png</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Resources/nyan_long@2x.gif</key>
 		<data>
-		udvjyOdEtKIC9mrX4PCuOCnj6Bc=
+		zx9UGkN/g/iOJzuAYXiPDHJ8OkE=
 		</data>
 		<key>Resources/nyan_music.mp3</key>
 		<data>
@@ -182,35 +182,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fm3wiRYkEv1DgcEYEDy/UeuwqK5Mq8aQM6Am1DK4VYs=
+			OHD1QlRWZojQj8tNEUpRdM6wK6ZbQ901+i4VryB7THk=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8k+TVoqSvWjbzZJbUMU6dWluLD91wbUMLwX5EgMgGqI=
+			09PUI/hD7ZhWxj01Hp3f7GkwnPyrNswceEZUkaGG3TY=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8qusCjyePH5Bp6Vo2/ZMYFBEtCxu2nJ2vTKnc0NSnLM=
+			YtJ4ubYJ81jlZQ77/4j+JllqjgZRfwnshpvdrA+jQaY=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			67WN8irPpFq9BOORmlkn0VY3CuVinfEutmeCCbipBjg=
+			toaRPabvFd1VHAciKglCU7az51tLTHb4g19hFXFlot8=
 			</data>
 		</dict>
 		<key>Resources/NyanCatCanvas.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MpUEEp1x6S3Nxly9cfEZQWSmgJBG80/ucH5kEW/+uCc=
+			K7873FAPSvn0Go2R8dGMWPkH2nQN4dS8wrQP+9DmvlE=
 			</data>
 		</dict>
 		<key>Resources/icon.png</key>
@@ -231,7 +231,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ydp3kcV7BbEpYoqQSpMv7Of4wF6RYlhsfUuEQ+Qd39Q=
+			KrENiUszUWMgLJE/lj+oLRIN2pgE+QozDboaXUHW97w=
 			</data>
 		</dict>
 		<key>Resources/nyan_music.mp3</key>

@@ -14,8 +14,8 @@
 		A3826CDA1DCE79B900B7C41E /* NyanCatCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */; };
 		A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */; };
 		A3A050DC1DCE96BD009D9775 /* nyan_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A3A050DB1DCE96BD009D9775 /* nyan_music.mp3 */; };
-		A3A050DE1DCE9DB9009D9775 /* nyan_long@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3A050DD1DCE9DB9009D9775 /* nyan_long@2x.gif */; };
 		A3A050E01DCE9E03009D9775 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A050DF1DCE9E03009D9775 /* icon.png */; };
+		A3A050E41DCEAB08009D9775 /* nyan_long@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3A050E31DCEAB08009D9775 /* nyan_long@2x.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NyanCatCanvas.swift; sourceTree = "<group>"; };
 		A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NyanCatCanvas.xib; sourceTree = "<group>"; };
 		A3A050DB1DCE96BD009D9775 /* nyan_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nyan_music.mp3; sourceTree = "<group>"; };
-		A3A050DD1DCE9DB9009D9775 /* nyan_long@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "nyan_long@2x.gif"; sourceTree = "<group>"; };
 		A3A050DF1DCE9E03009D9775 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A3A050E31DCEAB08009D9775 /* nyan_long@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "nyan_long@2x.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 		A3826CD61DCE73EA00B7C41E /* img */ = {
 			isa = PBXGroup;
 			children = (
+				A3A050E31DCEAB08009D9775 /* nyan_long@2x.gif */,
 				A3A050DF1DCE9E03009D9775 /* icon.png */,
-				A3A050DD1DCE9DB9009D9775 /* nyan_long@2x.gif */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -153,11 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */,
-				A3A050DE1DCE9DB9009D9775 /* nyan_long@2x.gif in Resources */,
 				A3A050E01DCE9E03009D9775 /* icon.png in Resources */,
 				A3A050DC1DCE96BD009D9775 /* nyan_music.mp3 in Resources */,
 				A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */,
 				A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */,
+				A3A050E41DCEAB08009D9775 /* nyan_long@2x.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

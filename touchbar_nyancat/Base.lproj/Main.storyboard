@@ -22,28 +22,30 @@
                     </window>
                     <touchBar key="touchBar" id="xmN-zC-h8c">
                         <touchBarItems>
-                            <touchBarItem id="NQS-6B-a8Z">
-                                <viewController key="viewController" id="GUf-S8-gJ6">
-                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="AHr-V1-qgd">
-                                        <rect key="frame" x="0.0" y="0.0" width="425" height="38"/>
+                            <touchBarItem id="HrR-h7-NCn">
+                                <viewController key="viewController" id="mWw-hs-xC2">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="cF0-5M-j3l">
+                                        <rect key="frame" x="0.0" y="0.0" width="960" height="38"/>
                                         <subviews>
-                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GP7-Ou-WRB" customClass="NyanCatCanvas" customModule="touchbar_nyancat" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="425" height="38"/>
+                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x10-iS-P7w" customClass="NyanCatCanvas" customModule="touchbar_nyancat" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="685" height="38"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="425" id="Ht8-Fv-QOU"/>
-                                                    <constraint firstAttribute="height" constant="38" id="adO-Rt-4tE"/>
+                                                    <constraint firstAttribute="height" constant="38" id="Kxz-Id-Bjk"/>
+                                                    <constraint firstAttribute="width" constant="685" id="R3d-YT-L8Y"/>
                                                 </constraints>
-                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="H5Z-QR-PZs"/>
+                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="mGf-ax-GZr"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="GP7-Ou-WRB" firstAttribute="centerX" secondItem="AHr-V1-qgd" secondAttribute="centerX" id="ZQw-YQ-2MR"/>
-                                            <constraint firstItem="GP7-Ou-WRB" firstAttribute="leading" secondItem="AHr-V1-qgd" secondAttribute="leading" id="fhL-3Z-orP"/>
-                                            <constraint firstItem="GP7-Ou-WRB" firstAttribute="centerY" secondItem="AHr-V1-qgd" secondAttribute="centerY" id="zY8-RK-YI5"/>
+                                            <constraint firstAttribute="width" constant="960" id="8fT-fS-RIV"/>
+                                            <constraint firstItem="x10-iS-P7w" firstAttribute="top" secondItem="cF0-5M-j3l" secondAttribute="top" id="ckE-w9-eCn"/>
+                                            <constraint firstItem="x10-iS-P7w" firstAttribute="leading" secondItem="cF0-5M-j3l" secondAttribute="leading" id="g6H-Pm-YqB"/>
+                                            <constraint firstAttribute="bottom" secondItem="x10-iS-P7w" secondAttribute="bottom" id="oSM-F2-fZ7"/>
+                                            <constraint firstAttribute="height" constant="38" id="rV9-Hn-8dZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="x10-iS-P7w" secondAttribute="trailing" constant="275" id="wT8-Om-0tY"/>
                                         </constraints>
                                     </view>
                                 </viewController>
-                                <size key="designTimeSize" width="425" height="38"/>
                             </touchBarItem>
                         </touchBarItems>
                     </touchBar>

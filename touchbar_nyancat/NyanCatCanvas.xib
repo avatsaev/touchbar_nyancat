@@ -10,10 +10,10 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Uhf-pL-gqw" customClass="NyanCatCanvas" customModule="touchbar_nyancat" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="287" height="48"/>
+            <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" id="oNW-cg-k71"/>
-            <point key="canvasLocation" x="-82.5" y="158"/>
+            <point key="canvasLocation" x="-304" y="158"/>
         </imageView>
     </objects>
 </document>

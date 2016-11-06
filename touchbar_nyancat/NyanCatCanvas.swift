@@ -15,7 +15,7 @@ class NyanCatCanvas: NSImageView {
 
         // Drawing code here.
       
-        self.frame = CGRect(x: 0, y: 0, width: 425, height: 30)
+        self.frame = CGRect(x: 0, y: 0, width: 685, height: 30)
       
         self.animates = true
         self.image = NSImage(named: "nyan_long@2x.gif")!

@@ -4,21 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/AppIcon.icns</key>
+		<data>
+		PWrIUFpgXLRGsCdpewSxNmwRlAQ=
+		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		a/nJsCwDzqSeX22Dex+G4TC6pHE=
+		L2XWXAuQt1P+Wzem9niZlgT49W4=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<data>
-		rex2AleGzy7SsoWis2mahqU4H/E=
+		bWnVOu4x3qQEPJ++dFLi/OjTlUM=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<data>
-		oZpx0/yr06n6WWXBgEoxp4XjHlA=
+		gr6qK3VaxpcZDFXquR7wXoHa6RM=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		w6eENI7Z44k/SHinRPt1AmuMm/g=
+		3rRJobfHFOgvrqiaLrn7e0FYxsA=
 		</data>
 		<key>Resources/NyanCatCanvas.nib</key>
 		<data>
@@ -186,32 +190,39 @@
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftXPC" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Aslan  Vatsaev (4MXV75LAY2)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
+		<key>Resources/AppIcon.icns</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xSGIjBrfcmKmNKpFyhFnfpsN/qecdTJLs3DEyJ59xxg=
+			</data>
+		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RCVqG2FAQ28C4/piccP6X4CQwev1GglZefWtakHYkAE=
+			W75hpvr6fvv3D/ERK81sCl8FpzAGS3g4yxE5HmYQuFo=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects-101201.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YhXPdmS0wzNPtC30uvkhktJQUisXOXUX/0y+tXFCBx0=
+			kRS2TPL2Ie0fuomYUAs/F6xB6iPZj64mUrGsBZtBKzg=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib/keyedobjects.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9FGVpVkbZQcjqMO9MZusNimlIDPOe2VC+8vLt2cci9c=
+			rVq194HPPb5Ljifpe/K578loogVgKd9ZY5buBIk6s04=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bDXCN6ATWEk0jPj7TzNeCu9ekx1R0wKNJ8F0ltLqIRg=
+			zFMEnQ/0uC63NfLj0R4936E7cOp7yjEjDW90SJs9/bI=
 			</data>
 		</dict>
 		<key>Resources/NyanCatCanvas.nib</key>

@@ -32,7 +32,6 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     
   }
   
-  var sound_btn_title: String?
   var sound_btn_image_on: NSImage?
   var sound_btn_image_off: NSImage?
   

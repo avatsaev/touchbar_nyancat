@@ -63,15 +63,15 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     sound_btn_image_off = NSImage(named: "ic_volume_off_3x.png")
 
     
-    let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "nyan_music", ofType: "mp3")!)
-    
-    do {
-      
-      try audio_player = AVAudioPlayer(contentsOf: nyan_music)
-      audio_player?.numberOfLoops = -1
-      audio_player?.prepareToPlay()
-      
-    }catch{}
+//    let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "nyan_music", ofType: "mp3")!)
+//    
+//    do {
+//      
+//      try audio_player = AVAudioPlayer(contentsOf: nyan_music)
+//      audio_player?.numberOfLoops = -1
+//      audio_player?.prepareToPlay()
+//      
+//    }catch{}
     
     //sound = true
 

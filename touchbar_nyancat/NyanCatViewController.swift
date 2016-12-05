@@ -15,6 +15,7 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
   
   var audio_player: AVAudioPlayer?
   
+    @IBOutlet weak var muteBtn: NSButton!
   //NOTE: I fucking love Swift's computed properties!
   var sound: Bool = true {
     
@@ -35,7 +36,6 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
   var sound_btn_image_on: NSImage?
   var sound_btn_image_off: NSImage?
   
-  
   @IBOutlet weak var sound_btn: NSButtonCell!
   @IBOutlet weak var bkg: NSView!
 
@@ -44,6 +44,7 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     super.viewDidLoad()
     
     self.view.wantsLayer = true
+    self.muteBtn.isHidden = true
     
   }
   
@@ -62,17 +63,17 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     sound_btn_image_off = NSImage(named: "ic_volume_off_3x.png")
 
     
-    let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "nyan_music", ofType: "mp3")!)
+//    let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "nyan_music", ofType: "mp3")!)
+//    
+//    do {
+//      
+//      try audio_player = AVAudioPlayer(contentsOf: nyan_music)
+//      audio_player?.numberOfLoops = -1
+//      audio_player?.prepareToPlay()
+//      
+//    }catch{}
     
-    do {
-      
-      try audio_player = AVAudioPlayer(contentsOf: nyan_music)
-      audio_player?.numberOfLoops = -1
-      audio_player?.prepareToPlay()
-      
-    }catch{}
-    
-    sound = true
+    //sound = true
 
 
   }

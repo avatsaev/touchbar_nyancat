@@ -9,6 +9,9 @@
 import Cocoa
 
 class NyanCatCanvas: NSImageView {
+    
+
+    var imageLoaded:Bool = false;
 
     var xPosition: CGFloat = 0 {
         didSet {
@@ -20,9 +23,14 @@ class NyanCatCanvas: NSImageView {
         super.draw(dirtyRect)
 
         // Drawing code here.
-      
+        
         self.animates = true
-        self.image = NSImage(named: "nyan_long@2x.gif")!
+        
+        if(!self.imageLoaded){
+            self.downloadImage()
+        }
+        
+
         self.canDrawSubviewsIntoLayer = true
         self.frame = CGRect(x: xPosition, y: 0, width: 685, height: 30)
     }
@@ -31,6 +39,33 @@ class NyanCatCanvas: NSImageView {
         // Calling super causes the cat to jump back to its original position 🤔
         //super.touchesBegan(with: event)
     }
+    
+    override func didAddSubview(_ subview: NSView) {
+        
+    }
+    
+    func downloadImage() {
+        
+        let url = URL(string: "https://i.imgur.com/7pgdK28.gif")
+
+        getDataFromUrl(url: url!) { (data, response, error)  in
+            guard let data = data, error == nil else { return }
+
+            DispatchQueue.main.async() { () -> Void in
+                self.image = NSImage(data: data)
+                self.imageLoaded = true;
+            }
+        }
+    }
+    
+    func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _  response: URLResponse?, _ error: Error?) -> Void) {
+        URLSession.shared.dataTask(with: url) {
+            (data, response, error) in
+            completion(data, response, error)
+            }.resume()
+    }
+    
+
     
     override func touchesMoved(with event: NSEvent) {
         if #available(OSX 10.12.1, *) {

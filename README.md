@@ -1,5 +1,5 @@
 # Touchbar Nyancat
-Stupid Nyan Cat animation on your +$2k MacBook Pro's Touchbar. Enjoy.
+Dank Nyan Cat animation on your +$2k MacBook Pro's Touchbar. Enjoy.
 
 [Download ⬇️](https://www.dropbox.com/s/3j18z84jctsecjf/touchbar_nyancat.app.zip?dl=0)
 

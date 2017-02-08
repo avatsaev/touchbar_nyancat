@@ -9,16 +9,16 @@
 import Cocoa
 
 class NyanCatCanvas: NSImageView {
-    
+    var timer:Timer? = nil
 
     var imageLoaded:Bool = false;
 
-    var xPosition: CGFloat = 0 {
+    var xPosition: CGFloat = -680 {
         didSet {
-            self.frame = CGRect(x: xPosition, y: 0, width: 685, height: 30)
+            self.frame = CGRect(x: xPosition, y: 0, width: 680, height: 30)
         }
     }
-    
+
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
 
@@ -26,13 +26,16 @@ class NyanCatCanvas: NSImageView {
         
         self.animates = true
         
+        if(self.timer == nil) {
+            timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(self.moveNyancat), userInfo: nil, repeats: true)
+        }
+
         if(!self.imageLoaded){
             self.downloadImage()
         }
         
-
         self.canDrawSubviewsIntoLayer = true
-        self.frame = CGRect(x: xPosition, y: 0, width: 685, height: 30)
+        self.frame = CGRect(x: xPosition, y: 0, width: 680, height: 30)
     }
     
     override func touchesBegan(with event: NSEvent) {
@@ -44,6 +47,14 @@ class NyanCatCanvas: NSImageView {
         
     }
     
+    public func moveNyancat() {
+        if (xPosition >= 0) {
+            xPosition = -680
+        } else {
+            xPosition += 1
+        }
+    }
+
     func downloadImage() {
         
         let url = URL(string: "https://i.imgur.com/7pgdK28.gif")

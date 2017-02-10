@@ -48,9 +48,7 @@ class NyanCatCanvas: NSImageView {
     }
     
     public func moveNyancat() {
-        if (xPosition >= 0) {
-            xPosition = -680
-        } else {
+        if (xPosition < 0) {
             xPosition += 1
         }
     }

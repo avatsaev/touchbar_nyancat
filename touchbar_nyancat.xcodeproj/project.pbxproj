@@ -15,6 +15,9 @@
 		A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A362A10B1DCE6D6B00737197 /* Main.storyboard */; };
 		A3826CDA1DCE79B900B7C41E /* NyanCatCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */; };
 		A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */; };
+		F3D5DE841F8AE06D00AD4767 /* nyan_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3D5DE831F8AE00200AD4767 /* nyan_music.mp3 */; };
+		F3D5DE861F8AE13A00AD4767 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D5DE851F8AE11900AD4767 /* icon.png */; };
+		F3D5DE881F8AE20700AD4767 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F3D5DE871F8AE1FD00AD4767 /* AppIcon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		A362A10E1DCE6D6B00737197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NyanCatCanvas.swift; sourceTree = "<group>"; };
 		A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NyanCatCanvas.xib; sourceTree = "<group>"; };
+		F3D5DE831F8AE00200AD4767 /* nyan_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nyan_music.mp3; sourceTree = "<group>"; };
+		F3D5DE851F8AE11900AD4767 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F3D5DE871F8AE1FD00AD4767 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 				A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */,
 				A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */,
 				A362A1091DCE6D6B00737197 /* Assets.xcassets */,
+				F3D5DE871F8AE1FD00AD4767 /* AppIcon.icns */,
 				A362A10B1DCE6D6B00737197 /* Main.storyboard */,
 				A362A10E1DCE6D6B00737197 /* Info.plist */,
 			);
@@ -76,6 +83,7 @@
 		A3826CD61DCE73EA00B7C41E /* img */ = {
 			isa = PBXGroup;
 			children = (
+				F3D5DE851F8AE11900AD4767 /* icon.png */,
 				A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */,
 				A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */,
 			);
@@ -85,6 +93,7 @@
 		A3A050DA1DCE96B2009D9775 /* sound */ = {
 			isa = PBXGroup;
 			children = (
+				F3D5DE831F8AE00200AD4767 /* nyan_music.mp3 */,
 			);
 			name = sound;
 			sourceTree = "<group>";
@@ -121,7 +130,8 @@
 				TargetAttributes = {
 					A362A1011DCE6D6B00737197 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 9K2GY8824J;
+						DevelopmentTeam = CW482378P7;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -149,6 +159,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D5DE881F8AE20700AD4767 /* AppIcon.icns in Resources */,
+				F3D5DE861F8AE13A00AD4767 /* icon.png in Resources */,
+				F3D5DE841F8AE06D00AD4767 /* nyan_music.mp3 in Resources */,
 				A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */,
 				A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */,
 				A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */,
@@ -280,12 +293,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9K2GY8824J;
+				DEVELOPMENT_TEAM = CW482378P7;
 				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vatsaev.touchbar-nyancat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -295,12 +308,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9K2GY8824J;
+				DEVELOPMENT_TEAM = CW482378P7;
 				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vatsaev.touchbar-nyancat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

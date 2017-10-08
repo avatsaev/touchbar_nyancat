@@ -13,11 +13,11 @@ import AVFoundation
 
 class NyanCatViewController: NSViewController , NSTouchBarDelegate{
   
-  var audio_player: AVAudioPlayer?
+  @objc var audio_player: AVAudioPlayer?
   
     @IBOutlet weak var muteBtn: NSButton!
   //NOTE: I fucking love Swift's computed properties!
-  var sound: Bool = true {
+  @objc var sound: Bool = true {
     
     didSet{
       
@@ -33,8 +33,8 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     
   }
   
-  var sound_btn_image_on: NSImage?
-  var sound_btn_image_off: NSImage?
+  @objc var sound_btn_image_on: NSImage?
+  @objc var sound_btn_image_off: NSImage?
   
   @IBOutlet weak var sound_btn: NSButtonCell!
   @IBOutlet weak var bkg: NSView!
@@ -59,21 +59,21 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     
     bkg.layer?.backgroundColor = NSColor(red:0.08, green:0.31, blue:0.55, alpha:1.00).cgColor
     
-    sound_btn_image_on = NSImage(named: "ic_volume_up_3x.png")
-    sound_btn_image_off = NSImage(named: "ic_volume_off_3x.png")
+    sound_btn_image_on = NSImage(named: NSImage.Name(rawValue: "ic_volume_up_3x.png"))
+    sound_btn_image_off = NSImage(named: NSImage.Name(rawValue: "ic_volume_off_3x.png"))
 
     
-//    let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "nyan_music", ofType: "mp3")!)
-//    
-//    do {
-//      
-//      try audio_player = AVAudioPlayer(contentsOf: nyan_music)
-//      audio_player?.numberOfLoops = -1
-//      audio_player?.prepareToPlay()
-//      
-//    }catch{}
+    let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "nyan_music", ofType: "mp3")!)
     
-    //sound = true
+    do {
+      
+      try audio_player = AVAudioPlayer(contentsOf: nyan_music)
+      audio_player?.numberOfLoops = -1
+      audio_player?.prepareToPlay()
+      
+    }catch{}
+    
+    sound = true
 
 
   }

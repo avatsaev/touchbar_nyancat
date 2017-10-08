@@ -9,11 +9,11 @@
 import Cocoa
 
 class NyanCatCanvas: NSImageView {
-    var timer:Timer? = nil
+    @objc var timer:Timer? = nil
 
-    var imageLoaded:Bool = false;
+    @objc var imageLoaded:Bool = false;
 
-    var xPosition: CGFloat = -680 {
+    @objc var xPosition: CGFloat = -680 {
         didSet {
             self.frame = CGRect(x: xPosition, y: 0, width: 680, height: 30)
         }
@@ -47,13 +47,13 @@ class NyanCatCanvas: NSImageView {
         
     }
     
-    public func moveNyancat() {
+    @objc public func moveNyancat() {
         if (xPosition < 0) {
             xPosition += 1
         }
     }
 
-    func downloadImage() {
+    @objc func downloadImage() {
         
         let url = URL(string: "https://i.imgur.com/7pgdK28.gif")
 
@@ -67,7 +67,7 @@ class NyanCatCanvas: NSImageView {
         }
     }
     
-    func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _  response: URLResponse?, _ error: Error?) -> Void) {
+    @objc func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _  response: URLResponse?, _ error: Error?) -> Void) {
         URLSession.shared.dataTask(with: url) {
             (data, response, error) in
             completion(data, response, error)

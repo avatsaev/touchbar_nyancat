@@ -16,7 +16,7 @@
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
-                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1028"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
                         <value key="minSize" type="size" width="480" height="270"/>
                         <value key="maxSize" type="size" width="480" height="270"/>
                         <connections>
@@ -28,12 +28,12 @@
                             <touchBarItem id="HrR-h7-NCn">
                                 <viewController key="viewController" id="mWw-hs-xC2">
                                     <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="cF0-5M-j3l">
-                                        <rect key="frame" x="0.0" y="0.0" width="960" height="38"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="960" height="30"/>
                                         <subviews>
                                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x10-iS-P7w" customClass="NyanCatCanvas" customModule="touchbar_nyancat" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="685" height="38"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="685" height="30"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="38" id="Kxz-Id-Bjk"/>
+                                                    <constraint firstAttribute="height" constant="30" id="Kxz-Id-Bjk"/>
                                                     <constraint firstAttribute="width" constant="685" id="R3d-YT-L8Y"/>
                                                 </constraints>
                                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="mGf-ax-GZr"/>
@@ -44,11 +44,12 @@
                                             <constraint firstItem="x10-iS-P7w" firstAttribute="top" secondItem="cF0-5M-j3l" secondAttribute="top" id="ckE-w9-eCn"/>
                                             <constraint firstItem="x10-iS-P7w" firstAttribute="leading" secondItem="cF0-5M-j3l" secondAttribute="leading" id="g6H-Pm-YqB"/>
                                             <constraint firstAttribute="bottom" secondItem="x10-iS-P7w" secondAttribute="bottom" id="oSM-F2-fZ7"/>
-                                            <constraint firstAttribute="height" constant="38" id="rV9-Hn-8dZ"/>
+                                            <constraint firstAttribute="height" constant="30" id="rV9-Hn-8dZ"/>
                                             <constraint firstAttribute="trailing" secondItem="x10-iS-P7w" secondAttribute="trailing" constant="275" id="wT8-Om-0tY"/>
                                         </constraints>
                                     </view>
                                 </viewController>
+                                <size key="designTimeSize" width="960" height="30"/>
                             </touchBarItem>
                         </touchBarItems>
                     </touchBar>

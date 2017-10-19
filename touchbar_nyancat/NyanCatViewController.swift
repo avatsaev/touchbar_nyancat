@@ -44,7 +44,7 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     super.viewDidLoad()
     
     self.view.wantsLayer = true
-    self.muteBtn.isHidden = true
+    self.muteBtn.isHidden = false
     
   }
   

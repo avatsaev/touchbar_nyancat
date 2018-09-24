@@ -47,9 +47,13 @@ class NyanCatCanvas: NSImageView {
         
     }
     
+    var direction: CGFloat = 1
     @objc public func moveNyancat() {
-        if (xPosition < 0) {
-            xPosition += 1
+        xPosition += direction
+        if xPosition > 0 {
+            direction = -1
+        } else if xPosition < -680 {
+            direction = 1
         }
     }
 

@@ -11,7 +11,7 @@ import AVFoundation
 
 
 
-class NyanCatViewController: NSViewController , NSTouchBarDelegate{
+class NyanCatViewController: NSViewController , NSTouchBarDelegate, NSWindowDelegate {
   
   @objc var audio_player: AVAudioPlayer?
   
@@ -54,13 +54,20 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     //NOTE: Swift's computed properties FTW!
     sound = !sound
   }
+    
+  func windowWillClose(_ notification: Notification) {
+    NSApplication.shared.terminate(self)
+  }
   
   override func viewWillAppear() {
     
+    super.viewWillAppear()
+    view.window?.delegate = self
+    
     bkg.layer?.backgroundColor = NSColor(red:0.08, green:0.31, blue:0.55, alpha:1.00).cgColor
     
-    sound_btn_image_on = NSImage(named: NSImage.Name(rawValue: "ic_volume_up_3x.png"))
-    sound_btn_image_off = NSImage(named: NSImage.Name(rawValue: "ic_volume_off_3x.png"))
+    sound_btn_image_on = NSImage(named: "ic_volume_up_3x.png")
+    sound_btn_image_off = NSImage(named: "ic_volume_off_3x.png")
 
     
     let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "nyan_music", ofType: "mp3")!)
@@ -74,8 +81,7 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     }catch{}
     
     sound = true
-
-
+    
   }
 
   override var representedObject: Any? {

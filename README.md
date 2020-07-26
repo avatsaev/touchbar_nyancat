@@ -1,6 +1,7 @@
 # Touchbar Nyancat
 Stupid Nyan Cat animation on your +$2k MacBook Pro's Touchbar. Enjoy.
 
+![nyancat-touchbar-mac.gif](nyancat-touchbar-mac.gif)
 
 [Video 📼](https://www.youtube.com/watch?v=E7Or2M7XUb4)
 

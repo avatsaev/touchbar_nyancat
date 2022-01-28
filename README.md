@@ -12,7 +12,7 @@ Stupid Nyan Cat animation on your +$2k MacBook Pro's Touchbar. Enjoy.
 # Instructions
  - Download the app
  - The app is not signed, if GateKeeper refuses to run it, you can bypass the Gatekeeper by right-clicking the app and then chose `Open` in context menu (one time operation).
- - The animation appers in the TouchBar only when to app is in focus.
+ - The animation appers in the TouchBar only when the app is in focus.
 
 ![](http://i.imgur.com/mHYg4vE.jpeg)
 
